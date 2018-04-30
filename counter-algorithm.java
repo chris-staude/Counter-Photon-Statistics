@@ -31,12 +31,12 @@ public class QuantumOptics extends Frame {
 	   public static int[] array;
 	   public static String x;
 	   public static int addcounter(int a) throws FileNotFoundException {
-		   File f = new File("Arrivaltime_set.txt");
-	       Scanner s = new Scanner(f);
-	       int count = -1;
-	       int[] array = new int[20000];
-	       int i = 0;
-	       int j = 0;
+           File f = new File("Arrivaltime_set.txt");
+	   Scanner s = new Scanner(f);
+	   int count = -1;
+	   int[] array = new int[20000];
+	   int i = 0;
+	   int j = 0;
 	     
 	       for(i = 1; s.hasNextInt(); i++){      
 	            array[i] = s.nextInt();     
@@ -47,12 +47,12 @@ public class QuantumOptics extends Frame {
 
 	        }
 	       }
-	        System.out.println(a + " " + count);
+	    System.out.println(a + " " + count);
 	        
-	        Integer.toString(count);
+	    Integer.toString(count);
+	   
+	    return count;
 	     
-	        return count;
-	      
 	        
 	   }
    
