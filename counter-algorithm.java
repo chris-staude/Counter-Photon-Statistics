@@ -12,7 +12,6 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
-
 import javax.imageio.ImageIO;
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
@@ -22,8 +21,6 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
-
-
 import java.awt.Frame;
 import java.awt.GridBagLayout;
 
@@ -58,13 +55,11 @@ public class QuantumOptics extends Frame {
 	      
 	        
 	   }
-	   
-	   
-	   
-	   public static void main(String[] args) throws IOException{
+   
+       public static void main(String[] args) throws IOException {
         
-	   JTextField textfield0, textfield, textfield2, textfield3, textfield4;
-	   BufferedImage img = ImageIO.read(new File("background.jpg"));
+       JTextField textfield0, textfield, textfield2, textfield3, textfield4;
+       BufferedImage img = ImageIO.read(new File("background.jpg"));
        JFrame frame = new JFrame("Testing");
        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
        frame.setContentPane(new JLabel(new ImageIcon(img)));
