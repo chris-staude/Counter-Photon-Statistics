@@ -5,6 +5,6 @@ Project done, counter-algorithm includes:
 - display number of counts for specific time interval 
 
 
-<div align="center">
+<div align="left">
     <img src="https://github.com/chris-staude/Counter-Photon-Statistics/blob/master/plotset1.png" width="500px"</img> 
 </div>
